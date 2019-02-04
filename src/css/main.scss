@@ -1,95 +1,98 @@
 .content__article-body, .article__body {
 
-    h2:after {
-        content: ' ';
-        border-bottom:dotted #951c55 1px;
-        width:100%;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-        display:inline-block;
-    }
+    :not(.element-rich-link) {
 
-    h2 {
-        color: #951c55;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    @media only screen and (max-width : 979px)  {
+        h2:after {
+            content: ' ';
+            border-bottom:dotted #951c55 1px;
+            width:100%;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            display:inline-block;
+        }
 
         h2 {
-            font-size: 2rem;
-            line-height: 2rem;
+            color: #951c55;
+            font-weight: 400;
+            font-style: normal;
         }
-    }
 
-    @media only screen and (min-width : 980px)  {
+        @media only screen and (max-width : 979px)  {
 
-        h2 {
-            font-size: 2rem;
-            line-height: 2rem;
-
+            h2 {
+                font-size: 2rem;
+                line-height: 2rem;
+            }
         }
-    }
 
+        @media only screen and (min-width : 980px)  {
 
-    h2 em {
-        color: #767676;
-        font-style: normal;
-        font-weight: 400;
-    }
+            h2 {
+                font-size: 2rem;
+                line-height: 2rem;
 
-    @media only screen and (max-width : 979px)  {
+            }
+        }
+
 
         h2 em {
-            font-size: 2rem;
-            line-height: 2rem;
+            color: #767676;
+            font-style: normal;
+            font-weight: 400;
         }
-    }
 
-    @media only screen and (min-width : 980px)  {
+        @media only screen and (max-width : 979px)  {
 
-        h2 em {
-            font-size: 1.5rem;
-            line-height: 1.5rem;
+            h2 em {
+                font-size: 2rem;
+                line-height: 2rem;
+            }
         }
-    }
 
-    h2 sub {
-        color: #767676;
-        font-weight: 400;
-        font-style: normal;
-    }
+        @media only screen and (min-width : 980px)  {
 
-    @media only screen and (max-width : 979px)  {
+            h2 em {
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+            }
+        }
 
         h2 sub {
-            font-size: 1.5rem;
-            line-height: 1.5rem;
+            color: #767676;
+            font-weight: 400;
+            font-style: normal;
         }
-    }
 
-    @media only screen and (min-width : 980px)  {
+        @media only screen and (max-width : 979px)  {
 
-        h2 sub {
-            font-size: 1rem;
-            line-height: 1rem;
-            bottom: 0.5rem;
+            h2 sub {
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+            }
         }
-    }
+
+        @media only screen and (min-width : 980px)  {
+
+            h2 sub {
+                font-size: 1rem;
+                line-height: 1rem;
+                bottom: 0.5rem;
+            }
+        }
 
 
-    h2 strong {
-        font-weight: 400!important;
-    }
+        h2 strong {
+            font-weight: 400!important;
+        }
 
-    p strong {
-        color: black;
-        font-weight: 900;
-    }
+        p strong {
+            color: black;
+            font-weight: 900;
+        }
 
-    hr {
-    	color: #767676
+        hr {
+        	color: #767676
+        }
     }
 
 }

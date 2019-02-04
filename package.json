@@ -13,9 +13,9 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-replace": "^1.0.1",
     "grunt-prompt": "^1.3.0",
-    "grunt-sass": "^1.1.0",
     "grunt-shell": "^1.1.2",
     "grunt-template": "^0.2.3",
+    "grunt-sass": "^2.0.0",
     "jit-grunt": "^0.9.1"
   },
   "scripts": {
@@ -29,10 +29,7 @@
     "configFile": "src/js/config.js",
     "dependencies": {
       "guardian/iframe-messenger": "github:guardian/iframe-messenger@master",
-      "jquery": "npm:jquery@^3.2.1",
       "json": "github:systemjs/plugin-json@^0.1.0",
-      "pannellum": "npm:pannellum@^2.3.2",
-      "reqwest": "github:ded/reqwest@^1.1.5",
       "text": "github:systemjs/plugin-text@^0.0.2"
     },
     "devDependencies": {
@@ -42,7 +39,7 @@
     }
   },
   "dependencies": {
-    "jquery": "^3.2.1",
-    "jspm": "^0.16.34"
+    "jspm": "^0.16.34",
+    "node-sass": "^4.11.0"
   }
 }
